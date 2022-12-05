@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(82, 86, 89);
+}
+
+#canvas_container {
+    position: absolute;
+    margin: 0 auto;
+    top: 8%;
+    height: 92%;
+    width: 100%;
+    overflow: scroll;
+    text-align: center;
+}
+
+#pdf_renderer {
+    overflow: scroll;
+    position: relative;
+    padding: 0;
+    margin: auto;
+    display: block;
+}
+
+.navbar {
+    background-color: rgb(53 53 53);
+    text-align: center;
+    height: 8%;
+    width: 100%;
+    top: 0;
+    position: absolute;
+}
+
+button {
+    /* width: 200px; */
+    padding: 5px;
+    margin: 3px;
+    background: #f1f1f1;
+    border: 1px solid #aaa;
+}
+
+input {
+    padding: 5px;
+    width: 5%;
+    margin: 0 0 0 0;
+    background: #f1f1f1;
+}

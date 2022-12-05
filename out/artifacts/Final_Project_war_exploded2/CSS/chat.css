@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+}
+
+.header {
+    height: 10%;
+    width: 100%;
+    font-size: 2vmin;
+    position: absolute;
+    text-align: center;
+}
+
+.chat {
+    width: 100%;
+    height: 94%;
+    border: 1px solid silver;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.bottom {
+    bottom: 0;
+    height: 6%;
+}
+
+#msg {
+    height: 100%;
+    width: 80%;
+    font-size: 2vmin;
+}
+
+button {
+    height: 100%;
+    width: 18%;
+    font-size: 2vmin;
+}
+
+#text {
+    margin-top: 10%;
+    width: 70%;
+    bottom: 0;
+    height: 90%;
+    background: bisque;
+    position: absolute;
+}
+
+#groups {
+    margin-top: 10%;
+    margin-left: 70%;
+    width: 30%;
+    height: 90%;
+    bottom: 0;
+    background: #04AA6D;
+    overflow-y: scroll;
+    position: absolute;
+}

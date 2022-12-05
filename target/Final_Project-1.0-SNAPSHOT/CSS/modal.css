@@ -1,0 +1,67 @@
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  padding: 20px;
+  border: 2px solid #444;
+  width: 34%;
+  position: relative;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+input:not([type="radio"]) {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  background: #f1f1f1;
+  border: 1px solid #aaa;
+}
+
+input[type="submit"],input[type="button"] {
+  width: 40%;
+}
+
+form>img {
+  position: relative;
+  float: right;
+  width: 50%;
+}
+
+input:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+label {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.close:hover, .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
